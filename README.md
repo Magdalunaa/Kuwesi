@@ -1,9 +1,11 @@
 # nasin sitelen Kuwesi
 nasin sitelen Kuwesi is a keyboard layout for writing toki pona in sitelen Lasina (latin script)
 
-![preview](https://github.com/user-attachments/assets/3f9dea54-745a-4d18-b6e7-3750d66aea0b)
+![preview](https://github.com/Magdalunaa/Kuwesi/blob/main/kuwesi.png)
 
-for the pink keys, the bottom right letter is used in the normal layout, while the top left is used in the [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html) version (which i recommend)
+for the pink keys, the bottom right letter is the default, while the top left is used in the [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html) variations (which i recommend)
+
+for orange keys, the bottom right is the default, while the top left is used in the alternate punctuation variations
 
 the name Kuwesi being just a tokiponization of qwerty may be a bit inconvenient. but it sounds cute! i guess if you need to differentiate you can use Kuwesi pona and Kuwesi ike
 
