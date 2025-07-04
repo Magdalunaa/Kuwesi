@@ -11,7 +11,7 @@ the name Kuwesi being just a tokiponization of qwerty may be a bit inconvenient.
 i was writing a lot of toki pona and realized traditional layouts aren't good for it, and making my own sounded fun
 
 ## how?
-i based the layout on toki pona letter frequency. i placed vowels on one hand and consonants on the other to avoid single finger bigraphs. i also added common punctuation to the right hand for convenience. the layout was (briefly) tested by me, and analyzed  with [keyboard layout analyzer](https://patorjk.com/keyboard-layout-analyzer/v1/), which gave satisfactory results
+i based the layout on toki pona letter frequency. i placed vowels on one hand and consonants on the other to avoid same finger bigrams. i also added common punctuation to the right hand for convenience. the layout was (briefly) tested by me, and analyzed  with [keyboard layout analyzer](https://patorjk.com/keyboard-layout-analyzer/v1/), which gave satisfactory results
 
 ## y?
 intentional yupekosi
