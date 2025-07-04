@@ -1,0 +1,67 @@
+# nasin sitelen Kuwesi
+# https://github.com/Magdalunaa/Kuwesi
+
+[kuwesi:layout]
+
+a = p
+s = m
+d = l
+f = n
+j = a
+k = i
+l = o
+; = e
+w = t
+e = s
+r = w
+y = y
+c = j
+v = k
+m = u
+
+, = ,
+. = .
+u = !
+i = :
+o = "
+p = ;
+n = ?
+
+q = noop
+t = noop
+z = noop
+x = noop
+b = noop
+
+
+[kuwesi-anglemod:layout]
+
+a = p
+s = m
+d = l
+f = n
+j = a
+k = i
+l = o
+; = e
+w = t
+e = s
+y = y
+x = j
+c = k
+v = w
+m = u
+
+, = ,
+. = .
+u = !
+i = :
+o = "
+p = ;
+n = ?
+
+q = noop
+r = noop
+t = noop
+z = noop
+b = noop
