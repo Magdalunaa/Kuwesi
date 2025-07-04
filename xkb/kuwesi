@@ -1,6 +1,7 @@
 // nasin sitelen Kuwesi
 // https://github.com/Magdalunaa/Kuwesi
 
+#include <csignal>
 default partial
 xkb_symbols "basic" {
 
@@ -51,12 +52,11 @@ xkb_symbols "basic" {
     key <AB05>	{ [ NoSymbol ] };
     key <AB06>	{ [  question,   question ]	};
     key <AB07>	{ [         u,          U ]	};
-    key <AB08>	{ [     comma,       less ]	}; // bullet
+    key <AB08>	{ [     comma,       less ]	};
     key <AB09>	{ [    period,    greater ]	};
     key <AB10>	{ [     slash,   question ] };
 };
 
-// Northern Europe ( Danish, Finnish, Norwegian, Swedish) common layout
 
 partial alphanumeric_keys
 xkb_symbols "anglemod" {
@@ -108,7 +108,29 @@ xkb_symbols "anglemod" {
     key <AB05>	{ [ NoSymbol ] };
     key <AB06>	{ [  question,   question ]	};
     key <AB07>	{ [         u,          U ]	};
-    key <AB08>	{ [     comma,       less ]	}; // bullet
+    key <AB08>	{ [     comma,       less ]	};
     key <AB09>	{ [    period,    greater ]	};
     key <AB10>	{ [     slash,   question ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "altpunct" {
+
+    include "kuwesi"
+
+    key <AB06>  { [ periodcentered, periodcentered ] };
+    key <AD09>  { [       question,       question ] };
+    key <AB08>  { [ kana_openingbracket,     comma ] };
+    key <AB09>  { [ kana_closingbracket,    period ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "combined" {
+
+    include "kuwesi(anglemod)"
+
+    key <AB06>  { [ periodcentered, periodcentered ] };
+    key <AD09>  { [       question,       question ] };
+    key <AB08>  { [ kana_openingbracket,     comma ] };
+    key <AB09>  { [ kana_closingbracket,    period ] };
 };
