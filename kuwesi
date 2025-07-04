@@ -1,0 +1,114 @@
+// nasin sitelen Kuwesi
+// https://github.com/Magdalunaa/Kuwesi
+
+default partial
+xkb_symbols "basic" {
+
+    key <AE01>	{ [         1,     exclam ]	};
+    key <AE02>	{ [         2,         at ]	};
+    key <AE03>	{ [         3, numbersign ]	};
+    key <AE04>	{ [         4,     dollar ]	};
+    key <AE05>	{ [         5,    percent ]	};
+    key <AE06>	{ [         6,asciicircum ] };
+    key <AE07>	{ [         7,  ampersand ]	};
+    key <AE08>	{ [         8,   asterisk ]	};
+    key <AE09>	{ [         9,  parenleft ]	};
+    key <AE10>	{ [         0, parenright ]	};
+    key <AE11>	{ [     minus, underscore ]	};
+    key <AE12>	{ [     equal,       plus ]	};
+
+    key <AD01>	{ [ NoSymbol ]	};
+    key <AD02>	{ [         t,          T ]	};
+    key <AD03>	{ [         s,          S ]	};
+    key <AD04>	{ [         w,          W ]	};
+    key <AD05>	{ [ NoSymbol ]	};
+    key <AD06>	{ [         y,          Y ]	};
+    key <AD07>	{ [    exclam,     exclam ]	};
+    key <AD08>	{ [     colon,      colon ]	};
+    key <AD09>	{ [  quotedbl,   quotedbl ]	};
+    key <AD10>	{ [ semicolon,      colon ]	};
+    key <AD11>	{ [bracketleft,  braceleft ] };
+    key <AD12>	{ [bracketright, braceright ]	};
+
+    key <AC01>	{ [         p,          P ]	};
+    key <AC02>	{ [         m,          M ]	};
+    key <AC03>	{ [         l,          L ]	};
+    key <AC04>	{ [         n,          N ]	};
+    key <AC05>	{ [ NoSymbol ]	};
+    key <AC06>	{ [ NoSymbol ]	};
+    key <AC07>	{ [         a,          A ] };
+    key <AC08>	{ [         i,          I ]	};
+    key <AC09>	{ [         o,          O ]	};
+    key <AC10>	{ [         e,          E ]	};
+    key <AC11>	{ [apostrophe, quotedbl ]	};
+    key <TLDE>	{ [     grave, asciitilde ]	};
+
+    key <BKSL>	{ [ backslash,        bar ]	};
+    key <AB01>	{ [ NoSymbol ]	};
+    key <AB02>	{ [ NoSymbol ]	};
+    key <AB03>	{ [         j,          J ]	};
+    key <AB04>	{ [         k,          K ]	};
+    key <AB05>	{ [ NoSymbol ] };
+    key <AB06>	{ [  question,   question ]	};
+    key <AB07>	{ [         u,          U ]	};
+    key <AB08>	{ [     comma,       less ]	}; // bullet
+    key <AB09>	{ [    period,    greater ]	};
+    key <AB10>	{ [     slash,   question ] };
+};
+
+// Northern Europe ( Danish, Finnish, Norwegian, Swedish) common layout
+
+partial alphanumeric_keys
+xkb_symbols "anglemod" {
+
+    key <AE01>	{ [         1,     exclam ]	};
+    key <AE02>	{ [         2,         at ]	};
+    key <AE03>	{ [         3, numbersign ]	};
+    key <AE04>	{ [         4,     dollar ]	};
+    key <AE05>	{ [         5,    percent ]	};
+    key <AE06>	{ [         6,asciicircum ] };
+    key <AE07>	{ [         7,  ampersand ]	};
+    key <AE08>	{ [         8,   asterisk ]	};
+    key <AE09>	{ [         9,  parenleft ]	};
+    key <AE10>	{ [         0, parenright ]	};
+    key <AE11>	{ [     minus, underscore ]	};
+    key <AE12>	{ [     equal,       plus ]	};
+
+    key <AD01>	{ [ NoSymbol ]	};
+    key <AD02>	{ [         t,          T ]	};
+    key <AD03>	{ [         s,          S ]	};
+    key <AD04>	{ [ NoSymbol ]	};
+    key <AD05>	{ [ NoSymbol ]	};
+    key <AD06>	{ [         y,          Y ]	};
+    key <AD07>	{ [    exclam,     exclam ]	};
+    key <AD08>	{ [     colon,      colon ]	};
+    key <AD09>	{ [  quotedbl,   quotedbl ]	};
+    key <AD10>	{ [ semicolon,      colon ]	};
+    key <AD11>	{ [bracketleft,  braceleft ] };
+    key <AD12>	{ [bracketright, braceright ]	};
+
+    key <AC01>	{ [         p,          P ]	};
+    key <AC02>	{ [         m,          M ]	};
+    key <AC03>	{ [         l,          L ]	};
+    key <AC04>	{ [         n,          N ]	};
+    key <AC05>	{ [ NoSymbol ]	};
+    key <AC06>	{ [ NoSymbol ]	};
+    key <AC07>	{ [         a,          A ] };
+    key <AC08>	{ [         i,          I ]	};
+    key <AC09>	{ [         o,          O ]	};
+    key <AC10>	{ [         e,          E ]	};
+    key <AC11>	{ [apostrophe, quotedbl ]	};
+    key <TLDE>	{ [     grave, asciitilde ]	};
+
+    key <BKSL>	{ [ backslash,        bar ]	};
+    key <AB01>	{ [ NoSymbol ]	};
+    key <AB02>	{ [         j,          J ]	};
+    key <AB03>	{ [         k,          K ]	};
+    key <AB04>	{ [         w,          W ]	};
+    key <AB05>	{ [ NoSymbol ] };
+    key <AB06>	{ [  question,   question ]	};
+    key <AB07>	{ [         u,          U ]	};
+    key <AB08>	{ [     comma,       less ]	}; // bullet
+    key <AB09>	{ [    period,    greater ]	};
+    key <AB10>	{ [     slash,   question ] };
+};
