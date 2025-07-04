@@ -1,6 +1,9 @@
 # nasin sitelen Kuwesi
 # https://github.com/Magdalunaa/Kuwesi
 
+# using the kuwesi-altpunct or kuwesi-combined layouts requires keyd unicode input to be set up. alt punctuation may not work in all environments
+# for this, those two layouts also have ,. in G and H respectively. as some sort of fallback
+
 [kuwesi:layout]
 
 a = p
@@ -26,6 +29,9 @@ i = :
 o = "
 p = ;
 n = ?
+
+g = noop
+h = noop
 
 q = noop
 t = noop
@@ -60,6 +66,83 @@ i = :
 o = "
 p = ;
 n = ?
+
+g = noop
+h = noop
+
+q = noop
+r = noop
+t = noop
+z = noop
+b = noop
+
+capslock = backspace
+
+[kuwesi-altpunct:layout]
+
+a = p
+s = m
+d = l
+f = n
+j = a
+k = i
+l = o
+; = e
+w = t
+e = s
+r = w
+y = y
+c = j
+v = k
+m = u
+
+, = 「
+. = 」
+u = !
+i = :
+o = ?
+p = ;
+n = ·
+
+g = ,
+h = .
+
+q = noop
+t = noop
+z = noop
+x = noop
+b = noop
+
+capslock = backspace
+
+[kuwesi-combined:layout]
+
+a = p
+s = m
+d = l
+f = n
+j = a
+k = i
+l = o
+; = e
+w = t
+e = s
+y = y
+x = j
+c = k
+v = w
+m = u
+
+, = 「
+. = 」
+u = !
+i = :
+o = ?
+p = ;
+n = ·
+
+g = ,
+h = .
 
 q = noop
 r = noop
