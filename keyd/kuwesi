@@ -33,6 +33,7 @@ z = noop
 x = noop
 b = noop
 
+capslock = backspace
 
 [kuwesi-anglemod:layout]
 
@@ -65,3 +66,5 @@ r = noop
 t = noop
 z = noop
 b = noop
+
+capslock = backspace
